@@ -1,0 +1,107 @@
+body{
+    background-image: url('/images/Cal.jpeg');
+    background-size: cover;
+}
+
+.heading {
+    margin-top: 1rem;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.5rem;
+    font-family: 'Grandstander', cursive;
+}
+
+.Outer-container {
+    width: 400px;
+    height: 640px;
+    margin: 4rem auto auto auto;
+    
+}
+.Middle-Container {
+    width: 400px;
+    height: 640px;
+    margin: auto;
+    background-color: gray;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+.Text-Input-box {
+    height: 80px;
+    width: 400px;
+   background-color: gray;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+
+#result {
+    text-align: right;
+    padding: 25px 0 25px 25px;
+    font-size: 2.5rem;
+    color: white;
+}
+
+
+#history {
+    text-align: right;
+    padding: 25px 0 25px 25px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+.final_result {
+    height: 50px;
+    width: 400px;
+   background-color:gray;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+}
+
+.Button-Box{
+    height: 300px;
+    width: 350px;
+    padding: 32px;
+    
+}
+
+.operator , .number ,.empty{
+    margin: 15px;
+    border-radius: 50%;
+    border-width: 0;
+    float: left;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    opacity: 1.5;
+    font-weight: 600;
+}
+
+.operator:active , .number:active , .empty:active{
+    font-size: 18px;
+    outline: 0;
+}
+.number:focus , .operator:focus ,.empty:focus {
+    outline: 0;
+}
+
+button:nth-child(4) {
+    font-weight: 700;
+    background-color: #20b2aa;
+}
+button:nth-child(8) {
+    font-weight: 700;
+    background-color: #2F4FDE;
+}
+button:nth-child(12) {
+    font-weight: 700;
+    background-color: #EB3F49;
+}
+button:nth-child(16) {
+    font-weight: 700;
+    background-color: #C8F527;
+}
+button:nth-child(20) {
+    font-weight: 700;
+    background-color: #38E7FF;
+}
